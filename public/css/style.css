@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #E8F7FC url('../images/bg.jpg') repeat-x; 
+    position: relative;
+}
+.logo{
+    color: #3A65A8;
+    text-decoration: none;
+    font-size: 1.9em;
+    font-weight: normal;
+}
+.logo:hover{
+    text-decoration: none;
+}
+#login-form .btn{
+        border-radius: 1rem;
+        border: none;
+        cursor: pointer;
+}
+.validate_error{
+    list-style: none;
+}
+.purple_img{
+    position:absolute;
+    right:0;
+    top: 0
+
+}
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+.menu{
+    position: relative;
+    padding: 0 60px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #306172;
+    font-size: 16px;
+
+}
+#green_bubble{
+    padding: 30px 0 68px 280px;
+    height: 30px;
+    background: url(../images/green_bubbles.jpg) no-repeat center left;
+    
+}
+#green_bubble a {
+    color: #34AE61;
+    font-weight: bold;
+    margin: 0 30px 0 0;
+    
+}
+.text-color{
+    color: #306172 !important;
+}
+.bg-color{
+    color: #306172 !important;
+}
+/* home page style */
+
+.homePageContainer h2{
+    color: #306172;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.homePageContainer label {
+    color: #306172;
+}
+.btnGroupContainer button:focus{
+    background: transparent !important;
+    color: #2779aa;
+}
+.btnGroupContainer button:active{
+    background: transparent !important;
+    color: #2779aa;
+}
+.btnGroupContainer button:hover{
+    background: transparent !important;
+    color: #2779aa;
+    transition: 0.5s;
+}
+ /* manage section */
+ .manageContainer .table{
+     border: 1px solid #306172;
+
+ }
+.manageContainer .table td{
+    border:none !important;
+    padding:0.2rem  0.5rem!important;
+    color: #306172;
+    font-size: 15px;
+    vertical-align: unset !important;
+}
+/* details page */
+.detailsContainer .table td{
+    border-top: 1px solid #000 !important;
+}
+
+@media (max-width: 991px) { 
+    
+    .datePicker{
+        width: 200px !important;
+    }
+ }
+ @media (max-width: 576px){
+     .datePicker{
+         width: 100% !important ;
+     }
+ }
